@@ -345,8 +345,10 @@ JS
 
 
 
+Best Practices and tips:
 
-  
+  1. we can use html validator(if allowed)
+  2. 
 
 
 
