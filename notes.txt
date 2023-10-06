@@ -347,7 +347,7 @@ JS
 
 Best Practices and tips:
 
-  1. we can use html validator(if allowed)
+  1. we can use html validator(if allowed) to catch error in html code
   2. 
 
 
