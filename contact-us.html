@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Welcome to Youtube Contact Us Page">
+  <meta name="keywords" content="About Youtube, Intro Video, Intro Audio, Youtube Services, Youtube Premium, Locate Us, reach Out">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+  <!-- Linking another External Stylesheet -->
+  <link rel="stylesheet" href="./assets/styles/normalize.css">
+
+  <!-- Linking External Stylesheet -->
+  <link rel="stylesheet" href="./assets/styles/main.css">
+</head>
+
+<body>
+  <header>
+    <div class="head-fixer">
+      <div class="header-wrapper">
+        <div class="side-bar">
+          <aside class="collapsible-menu">
+            <button type="button" class="side-bar-button" aria-label="Click to open side bar"><i class="fa fa-bars" aria-hidden="true"></i></button>
+          </aside>
+          <a href="./index.html" class="logo-link">
+            <img src="./assets/images/youtube-logo.png" height="35px" width="80px" alt="Youtube Logo">
+          </a>
+        </div>
+        <div class="search-bar">
+          <input type="search" class="search-input" placeholder="Search" aria-label="Type to search">
+          <button class="search-logo" aria-label="Click to Search">
+            <i class="fa fa-search" aria-hidden="true"></i>
+          </button>
+          <button type="button" class="mic" aria-label="Click for microphone">
+            <i class="fa fa-microphone" aria-hidden="true"></i>
+          </button>
+        </div>
+        <div class="sign-in">
+          <button type="button" aria-label="Click for settings">
+            <i class="fa-solid fa-ellipsis-vertical"></i>
+          </button>
+          <button type="button" class="sign-in-logo" aria-label="Sign in">
+            <i class="fa-solid fa-user"></i>Sign in</button>
+        </div>
+      </div>
+      <div id="suggestedTopics" style="  width: 980px; margin: 5px auto; white-space: nowrap; overflow-x: scroll;">
+        <ul>
+          <li><a href="/">All</a></li>
+          <li><a href="/">Music</a></li>
+          <li><a href="/">4K Resolution</a></li>
+          <li><a href="/">Bollywood Music</a></li>
+          <li><a href="/">Unboxing</a></li>
+          <li><a href="/">Smartphones</a></li>
+          <li><a href="/">Music</a></li>
+          <li><a href="/">Gaming</a></li>
+          <li><a href="/">Laptops</a></li>
+          <li><a href="/">Apple</a></li>
+          <li><a href="/">Music</a></li>
+          <li><a href="/">Gaming</a></li>
+          <li><a href="/">Laptops</a></li>
+          <li><a href="/">Apple</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="contactus-container">
+      <div class="contact-us">
+        <div class="contact-map">
+          <h2>Locate Us Here</h2>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3781.5255022820247!2d73.68644631411605!3d18.59541897173588!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bb1002839ee5%3A0x566783465348c4e6!2sCognizant%20CDC!5e0!3m2!1sen!2sin!4v1670390680276!5m2!1sen!2sin"
+            width="655" ; 
+            height="400" style="border:0;" 
+            allowfullscreen="" loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+        <div class="contact-address">
+          <h2>Reach Us Here</h2>
+          <address>
+            <h4>Cognizant CDC</h4>
+              Phase 3, Plot # 26,
+              MIDC, Hinjewadi Rajiv Gandhi Infotech Park,
+              Hinjawadi, Pimpri-Chinchwad, Maharashtra 411057
+            <p>Phone No: 9876543210</p>
+            <p>Email: <a href="mailto:contact@cognizant.com">contact@cognizant.com</a></p>
+          </address>
+        </div>
+      </div>
+
+      <section class="contact-details">
+        <h2>Contact Us by Filling Form:</h2>
+        <form class="contact-form">
+          <div class="field-group">
+            <label for="nameInput">Name</label>
+            <input id="nameInput" type="text" name="name" placeholder="Enter your Name" required>
+          </div><br>
+          <div class="field-group">
+            <label for="emailInput">Email</label>
+            <input id="emailInput" type="email" name="email" placeholder="Enter your Email Id" required>
+          </div><br>
+          <div class="field-group">
+            <label for="phoneInput">Phone Number</label>
+            <input id="phoneInput" type="tel" name="phone" placeholder="Enter your Phone Number" maxlength="10" required>
+          </div><br>
+          <div class="field-group">
+            <label for="queryInput" class="query-label">Query</label>
+            <textarea id="queryInput" name="query" placeholder="Enter your Query" rows="3" cols="39" required></textarea>
+          </div><br>
+          <div class="field-group">
+            <button type="reset">Reset</button>
+            <button type="submit">Submit</button>
+          </div>
+        </form>
+      </section>
+    </section>
+  </main>
+
+  <footer>
+    <nav id="primaryNav">
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="./contact-us.html">Contact Us</a></li>
+      </ul>
+    </nav>
+    <p id="copyright">Copyright&copy; 2022 | Rajendra</p>
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Welcome to Youtube Watch Page">
+  <meta name="keywords" content="Youtube Shorts, Youtube Subscriptons, Youtube Library, Youtube Video Player">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+  <!-- Linking another External Stylesheet -->
+  <link rel="stylesheet" href="./assets/styles/normalize.css">
+
+  <!-- Linking External Stylesheet -->
+  <link rel="stylesheet" href="./assets/styles/main.css">
+</head>
+
+<body>
+  <header>
+    <div class="head-fixer">
+      <div class="header-wrapper">
+        <div class="side-bar">
+          <aside class="collapsible-menu">
+            <button type="button" class="side-bar-button" aria-label="Click to open side bar"><i class="fa fa-bars" aria-hidden="true"></i></button>
+          </aside>
+          <a href="./index.html" class="logo-link">
+            <img src="./assets/images/youtube-logo.png" height="35px" width="80px" alt="Youtube Logo">
+          </a>
+        </div>
+        <div class="search-bar">
+          <input type="search" class="search-input" placeholder="Search" aria-label="Type to search">
+          <button class="search-logo" aria-label="Click to Search">
+            <i class="fa fa-search" aria-hidden="true"></i>
+          </button>
+          <button type="button" class="mic" aria-label="Click for microphone">
+            <i class="fa fa-microphone" aria-hidden="true"></i>
+          </button>
+        </div>
+        <div class="sign-in">
+          <button type="button" aria-label="Click for settings">
+            <i class="fa-solid fa-ellipsis-vertical"></i>
+          </button>
+          <button type="button" class="sign-in-logo" aria-label="Sign in">
+            <i class="fa-solid fa-user"></i>Sign in</button>
+        </div>
+      </div>
+      <div id="suggestedTopics" style="  width: 980px; margin: 5px auto; white-space: nowrap; overflow-x: scroll;">
+        <ul>
+          <li><a href="/">All</a></li>
+          <li><a href="/">Music</a></li>
+          <li><a href="/">4K Resolution</a></li>
+          <li><a href="/">Bollywood Music</a></li>
+          <li><a href="/">Unboxing</a></li>
+          <li><a href="/">Smartphones</a></li>
+          <li><a href="/">Music</a></li>
+          <li><a href="/">Gaming</a></li>
+          <li><a href="/">Laptops</a></li>
+          <li><a href="/">Apple</a></li>
+          <li><a href="/">Music</a></li>
+          <li><a href="/">Gaming</a></li>
+          <li><a href="/">Laptops</a></li>
+          <li><a href="/">Apple</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="watch-main-fixer">
+      <div class="watch-video-container">
+        <div class="watch-video">
+          <iframe 
+            width="560" 
+            height="315" 
+            src="https://www.youtube.com/embed/PZ53jeXcoNY" 
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+          </iframe>          
+          <div class="watch-video-meta">
+            <h3>
+              Relax Lofi | Romantic | Study | Night | Chill | Slowed + Reverb
+            </h3>
+            <div class="watch-video-channel">
+                <img class="channel-logo" src="./assets/images/lofi-channel-profile-logo.png" alt="channel logo" >
+              <div class="watch-video-channel-details">
+                <h4>Lofi Music</h4>
+                <h5>500K subscribers</h5>
+              </div>
+              <div class="subscribe-details">
+                <button class="subscribe-button">Subscribe</button>
+                <button><i class="fa fa-bell" aria-hidden="true"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="watch-recommend">
+          <div class="watch-recommend-videos">
+            <img src="./assets/images/love-song-video.png" alt="love songs" width="168px" height="94px">
+          </div>
+          <div class="watch-channel-name">
+            <h3><a href="/" class="watch-link">Ultimate South Dance Mashup 2020 | Malayalam x Tamil | DJ Midhun RMX x ...</a></h3>
+            <h5>
+              <a href="/">Top Music</a><br>
+              <span>12M Views | 4 years ago</span>
+            </h5>
+          </div>
+
+          <div class="watch-recommend-videos">
+            <img src="./assets/images/Kannada-Movie-Kantara.png" alt="Knatara Movie" width="168" height="94">
+          </div>
+          <div class="watch-channel-name">
+            <h3><a href="/" class="watch-link">Kantara Full Movie Hindi Dubbed 2022 | Rishab Shetty, Sapthami Gowda ...</a></h3>
+            <h5>
+              <a href="/">Goldmines</a><br>
+              <span>1B Views | 3 months ago</span>
+            </h5>
+          </div>
+
+
+
+          <div class="watch-recommend-videos">
+            <img src="./assets/images/meditation-video.png" alt="meditation-video" width="168" height="94">
+          </div>
+          <div class="watch-channel-name">
+            <h3><a href="/" class="watch-link">Kantara Full Movie Hindi Dubbed 2022</a></h3>
+            <h5>
+              <a href="/">Meditation and Healing</a><br>
+              <span>5M Views | 2 months ago</span>
+            </h5>
+          </div>
+
+
+
+          <div class="watch-recommend-videos">
+            <img src="./assets/images/avengers-trailer.png" alt="avengers" width="168" height="94">
+          </div>
+          <div class="watch-channel-name">
+            <h3><a href="/" class="watch-link">Watch Avengers Official Trailer</a></h3>
+            <h5>
+              <a href="/">Hollywood</a><br>
+              <span>522M Views | 5 year ago</span>
+            </h5>
+          </div>
+
+
+
+          <div class="watch-recommend-videos">
+            <img src="./assets/images/anubhav-bassi-standup.png" alt="standup" width="168" height="94">
+          </div>
+          <div class="watch-channel-name">
+            <h3><a href="/" class="watch-link">Hostel - Stand Up Comedy | Anubhav Singh Bassi</a></h3>
+            <h5>
+              <a href="/">Anubhav Bassi</a><br>
+              <span>15M Views | 2 year ago</span>
+            </h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <nav id="primaryNav">
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="./contact-us.html">Contact Us</a></li>
+      </ul>
+    </nav>
+    <p id="copyright">Copyright&copy; 2022 | Rajendra</p>
+  </footer>
+</body>
+
+</html>

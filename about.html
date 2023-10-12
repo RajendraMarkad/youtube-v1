@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Welcome to Youtube Help Page">
+  <meta name="keywords" content="About Youtube, Intro Video, Intro Audio, Youtube Services, Youtube Premium">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+  <!-- Linking another External Stylesheet -->
+  <link rel="stylesheet" href="./assets/styles/normalize.css">
+
+  <!-- Linking External Stylesheet -->
+  <link rel="stylesheet" href="./assets/styles/main.css">
+</head>
+<body>
+  <header>
+    <div class="head-fixer">
+      <div class="header-wrapper">
+        <div class="side-bar">
+          <aside class="collapsible-menu">
+            <button type="button" class="side-bar-button" aria-label="Click to open side bar">
+              <i class="fa fa-bars" aria-hidden="true"></i>
+            </button>
+          </aside>
+          <a href="./index.html" class="logo-link">
+            <img src="./assets/images/youtube-logo.png" height="35px" width="80px" alt="Youtube Logo">
+          </a>
+        </div>
+        <div class="search-bar">
+          <input type="search" class="search-input" placeholder="Search" aria-label="Type to search">
+          <button class="search-logo" aria-label="Click to Search">
+            <i class="fa fa-search" aria-hidden="true"></i>
+          </button>
+          <button type="button" class="mic" aria-label="Click for microphone">
+            <i class="fa fa-microphone" aria-hidden="true"></i>
+          </button>
+        </div>
+        <div class="sign-in">
+          <button type="button" aria-label="Click for settings">
+            <i class="fa-solid fa-ellipsis-vertical"></i>
+          </button>
+          <button type="button" class="sign-in-logo" aria-label="Sign in">
+            <i class="fa-solid fa-user"></i>Sign in</button>
+        </div>
+      </div>
+      <div id="suggestedTopics" style="  width: 980px; margin: 5px auto; white-space: nowrap; overflow-x: scroll;">
+        <ul>
+          <li><a href="/">All</a></li>
+          <li><a href="/">Music</a></li>
+          <li><a href="/">4K Resolution</a></li>
+          <li><a href="/">Bollywood Music</a></li>
+          <li><a href="/">Unboxing</a></li>
+          <li><a href="/">Smartphones</a></li>
+          <li><a href="/">Music</a></li>
+          <li><a href="/">Gaming</a></li>
+          <li><a href="/">Laptops</a></li>
+          <li><a href="/">Apple</a></li>
+          <li><a href="/">Music</a></li>
+          <li><a href="/">Gaming</a></li>
+          <li><a href="/">Laptops</a></li>
+          <li><a href="/">Apple</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="about-container">
+      <aside id="sidebarNav">
+        <nav class="about-suggestions">
+          <ul>
+            <li><a href="./about.html#aboutYouTube">About YouTube</a></li>
+            <li><a href="./about.html#ytIntroVideo">YouTube Intro Video</a></li>
+            <li><a href="./about.html#ytIntroAudio">YouTube Intro Audio</a></li>
+            <li><a href="./about.html#ytServices">YouTube Services</a></li>
+          </ul>
+        </nav>
+      </aside>
+      <div class="about-details">
+        <section id="aboutYouTube">
+          <h1 >About YouTube!</h1>
+          <p>YouTube is an American online video sharing and social media platform headquartered in San Bruno, California. It was launched on February 14, 2005, by Steve Chen, Chad Hurley, and Jawed Karim. It is owned by Google, and is the second most visited website, after Google Search. YouTube has more than 2.5 billion monthly user who collectively watch more than one billion hours of videos each day.</p>
+        </section>
+
+        <section id="ytIntroVideo">
+          <h2 >YouTube Intro Video</h2>
+          <video width="600" controls>
+            <source src="./assets/videos/about-youtube.mp4" type="video/mp4">
+          </video>
+        </section>
+
+        <section id="ytIntroAudio">
+          <h2 >YouTube Intro Audio</h2>
+          <audio controls>
+            <source src="./assets/audios/intro-audio.mp3" type="audio/mp3">
+          </audio>
+        </section>
+
+        <section id="ytServices">
+          <h2 >YouTube Services</h2>
+        
+          <h3 >YouTube Premimun</h3>
+          <p>YouTube Premium (formerly YouTube Red) is YouTube's premium subscription service. It offers advertising-free
+            streaming, access to original programming, and background and offline video playback on mobile devices.[408] YouTube
+            Premium was originally announced on November 12, 2014, as "Music Key", a subscription music streaming service, and
+            was intended to integrate with and replace the existing Google Play Music "All Access" service.</p>
+        
+          <h3 >YouTube Kids</h3>
+          <p>YouTube Kids is an American children's video app developed by YouTube, a subsidiary of Google. The app was
+            developed in response to parental and government scrutiny on the content available to children. The app provides a
+            version of the service-oriented towards children, with curated selections of content, parental control features, and
+            filtering of videos deemed inappropriate viewing for children aged under 13, 8 or 5 depending on the age grouping
+            chosen.</p>
+        
+          <h3 >YouTube Stories</h3>
+          <p>In 2018, YouTube started testing a new feature initially called "YouTube Reels".[438] The feature is nearly
+            identical to Instagram Stories and Snapchat Stories. YouTube later renamed the feature "YouTube Stories".</p>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <nav id="primaryNav">
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="./contact-us.html">Contact Us</a></li>
+      </ul>
+    </nav>
+    <p id="copyright">Copyright&copy; 2022 | Rajendra</p>
+  </footer>
+</body>
+</html>
